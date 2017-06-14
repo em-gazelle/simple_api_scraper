@@ -1,0 +1,13 @@
+== README
+
+Uber simple API endpoint that takes in a url, string_to_search_for within a website's DOM, and a css_class_to_count. Returns various information about each site, such as:
+
+* Whether the site is using Bootstrap
+
+* Whether a robots.txt file exists
+
+* Whether scraping is forbidden.
+
+* Whether the user's specified string is in the DOM
+
+* How many times a given CSS class is used within the page
